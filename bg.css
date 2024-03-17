@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 
+body {
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2ebf91,
+    rgb(85, 98, 255)
+  ); /* W3C, IE 10+/ Edge, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .circles {
   position: absolute;
   top: 0;
